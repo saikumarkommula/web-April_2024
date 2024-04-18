@@ -1,0 +1,65 @@
+ class -4 
+
+class will be starts 6:40
+
+html document
+html tag
+head tag
+title tag
+body tag
+p tag
+pre tag
+br tag
+hr tag
+anchar tag
+inline tags 
+block leval tag
+paired and unpaired tags 
+
+Day 4 :
+  Multimedia tags :
+  image tag : <img src=" ">  
+--------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Image tag</title>
+</head>
+<body>
+    <h1>Image tag : unpaired tag, Inline tag</h1>
+   
+
+  <img src="virat_kohli_i.jpg" height="500px" width="500px">
+  <img src="CSKoutline.png"  height="500px" width="500px">
+</body>
+</html>
+
+audio tag : <audio src=" "></audio>
+--------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Audio Tag : paired tag, inline tag </title>
+</head>
+<body>
+    <audio src="Two Hearts - TrackTribe.mp3" type="audio/mp3" controls></audio>
+    <audio src="Two Hearts - TrackTribe.mp3" type="audio/mp3" controls></audio>
+</body>
+</html>
+
+video tag : <video src=" "></video>
+-------------------------------------------------------
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>video tag : paired tag, inline tag</title>
+</head>
+<body>
+    <video src="monalisa.mp4" height="400px" width="400px" controls></video>
+    <video src="monalisa.mp4" height="400px" width="400px" controls></video>
+</body>
+</html>
+ 
