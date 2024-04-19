@@ -1,0 +1,62 @@
+class 5
+
+hello everyone..
+please check my voice is audible or not
+wait please ..
+i will start the class at 6:35pm
+
+-----------------------------------------------------
+
+Text Formating tags in HTML :-
+
+1.Underline tag <u></u>
+2.italic tag <i></i>
+3.bold tag <b></b>
+4.Strong tag <strong></strong>
+5.big tag <big></big>
+6.small tag <small></small>
+7.superscript tag <sup></sup> - -  a2 + 2ab + b2
+8.subscript tag <sub></sub>  H2O
+9.mark tag  <mark></mark>
+10.strike tag <strike></strike>
+11.emphasis tag  <em></em>
+
+-------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>text formatting tags :</title>
+</head>
+<body>
+    
+    <p>
+        Anatomically <u>modern humans</u> first <em>arrived began</em> saikumar <i>South Asia</i> around 7000 BCE;[2] by 
+        on the <b>Indian subcontinent</b> between 73,000 began in<strong> South Asia</strong> around 7000 BCE;[2] by 
+         and 55,000 years ago.[1] The earliestbegan in South Asia around 7000 BCE;[2] by 
+          known human <big>remains</big> in <small>South Asia</small> datebegan in <small>South Asia</small> around 7000 BCE;[2] by 
+           to 30,000 years ago. Sedentariness began in South Asia around 7000 BCE;[2] by 
+           4500 BCE, settled life had spread,[2] and <mark>gradually evolved</mark> into the Indus
+           <strike> Valley Civilisation, which flourished between 2500 BCE and 1900 BCE in present-day</strike>
+             Pakistan and north-western India. Early in the second millennium BCE, persistent
+              drought caused the population of the Indus Valley to scatter from large urban 
+              centres to villages. Indo-Aryan tribes moved into the Punjab from Central Asia in several waves of migration. The Vedic Period (1500–500 BCE) was marked by the composition of their large collections of hymns (Vedas). The social structure was stratified via the varna system, which persists till this day though highly evolved. The pastoral and nomadic Indo-Aryans spread from the Punjab into the Gangetic plain. Around 600 BCE, a new, interregional culture arose; then, small chieftaincies (janapadas) were consolidated into larger states (mahajanapadas). A second urbanisation took place, which came with the rise of new ascetic movements and religious concepts,[3] including the rise of Jainism and Buddhism. The latter was synthesised with the preexisting religious cultures of the subcontinent, giving rise to Hinduism.
+
+              (a+b)<sup>2</sup>=a<sup>2</sup>+2ab+b<sup>2</sup>
+              
+              H<sub>2</sub>O
+    </p>
+</body>
+</html>
+-------------------------------------------------------------------------------------------------
+
+WEB ELEMENT :- container/tag along with content is called web element
+
+-> tags are nothing but web element with content or without content
+
+  <P>SAIKUMAR<P> -- web element
+<p></p> - - tag
+
+------------------------------------------------------------------------------
+
+
