@@ -58,5 +58,8 @@ WEB ELEMENT :- container/tag along with content is called web element
 <p></p> - - tag
 
 ------------------------------------------------------------------------------
+class -6 :
+List elements
+Form elements
 
 
