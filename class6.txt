@@ -1,0 +1,73 @@
+ class -6 :-
+
+List elements:
+Form Elemets:
+
+List elements : --
+----------------------------
+1.Ordered List
+2.Unordered List
+3.Descriptional List
+
+Ordered List : <ol></ol>, <li></li>
+-------------------
+
+1.sai
+2.lalitha
+3.hardik
+
+Unordered List :  
+ul - li
+-----------------------
+.sai
+.lalitha
+.hardik
+
+Descriptional List : dl
+-----------------------------
+dt tag : discriptional term
+dd tag : discriptional data
+Tea : Tea is hot
+coffee : coffee is cold
+
+-------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>List elements</title>
+</head>
+<body>
+    
+    <h1>Ordered List :</h1>
+
+    <ol>
+        <li>sai</li>
+        <li>Dhoni</li>
+        <li>Hardik</li>
+        <li>Bhuvi</li>
+    </ol>
+
+    <h1>Unordered List</h1>
+    <ul>
+        <li>sai</li>
+        <li>Dhoni</li>
+        <li>Hardik</li>
+        <li>Bhuvi</li>
+
+    </ul>
+
+    <h1>Discriptional List</h1>
+    <dl>
+        <dt>Tea :</dt>
+        <dd>Tea is hot,Tea is an aromatic beverage prepared by pouring hot or boiling water over cured or fresh leaves of Camellia sinensis,</dd>
+
+        <dt>Coffee :</dt>
+        <dd>Coffee is cold</dd>
+    </dl>
+
+
+</body>
+</html>
+-------------------------------------------------------------------------------
+
