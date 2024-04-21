@@ -1,0 +1,73 @@
+CLASS -7 :
+-----------------
+
+I will start 6:30 pm
+
+Today Topic: 
+
+Form Elements in HTML 
+-------------------------------------
+1.Name Box
+2.Email Box
+3.Number Box
+4.Phone Number Box
+5.check Box
+6.Radio Button
+7.submit Button
+8.Reset Button
+9.Upload Button
+10.Search Button
+	
+<form></form>
+
+validation and action -- java script
+
+<label></label>
+<input></input>
+<buttion></button>
+
+
+   Saikumar._45@gmail.com
+"[A-Za-z0-9._]+@[a-zA-Z]+.[A-Za-z]{3}$"
+
+
+------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form</title>
+</head>
+<body>
+<center><h3>SaiKumar Online Classes</h3></center>
+<form action="">
+    <label for="">Name :</label>
+    <input type="text" placeholder="Enter your name"> <br><br>
+
+    <label for="">Email :</label>
+    <input type="email" placeholder="enter your email " pattern="[A-Za-z0-9]+@[a-zA-Z]+.[A-Za-z]{3}$" required> <br><br>
+
+    <label>Age :</label>
+    <input type="number" id="age" name="age"> <br><br>
+
+   
+<label for="">Technical Skills :</label>
+
+<input type="checkbox">Java
+<input type="checkbox">React JS
+<input type="checkbox">Spring Boot
+<input type="checkbox">Sql
+
+ <br><br>
+
+ <label for="">Gender</label>
+ <input type="radio" name="gender">Male
+ <input type="radio" name="gender">Female
+ <input type="radio" name="gender">Others
+
+ <br><br>
+    <button >SignUp</button>
+ 
+</form>    
+</body>
+</html>
