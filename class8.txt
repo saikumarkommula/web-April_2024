@@ -1,6 +1,199 @@
+class 8 :
+-------------
+
 class will be starts sharp 6:26 pm
 VOICE AUDIBLE OR NOT
 
 class 8 :
 -------------
 
+Form Elements in HTML 
+-------------------------------------
+1.Name Box
+2.Email Box
+3.Number Box
+4.Phone Number Box
+5.check Box
+6.Radio Button
+7.submit Button
+8.Reset Button
+9.Upload Button
+10.Search Button
+11.select box/Drop DownMenu
+
+4.Phone Number Box:
+----------------------
+6,7,8,9
+ 8309808500
+"^[6-9]{1}[0-9]{9}$"
+^ indicates starting
+$ indicates end
+
+-----------*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-----------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form</title>
+</head>
+<body>
+<center><h3>SaiKumar Online Classes</h3></center>
+<form action="">
+    <label for="">Name :</label>
+    <input type="text" placeholder="Enter your name"> <br><br>
+
+    <label for="">Phone :</label>
+    <input type="tel"  placeholder="Enter Mobile Number" pattern="^[6-9]{1}[0-9]{9}$"><br><br>
+
+    <label for="">Email :</label>
+    <input type="email" placeholder="enter your email " pattern="[A-Za-z0-9]+@[a-zA-Z]+.[A-Za-z]{3}$" required> <br><br>
+
+    <label>Age :</label>
+    <input type="number" id="age" name="age"> <br><br>
+
+   
+<label >Technical Skills :</label>
+
+<input type="checkbox">Java
+<input type="checkbox">React JS
+<input type="checkbox">Spring Boot
+<input type="checkbox">Sql
+
+ <br><br>
+
+ <label >Gender</label>
+ <input type="radio" name="gender">Male
+ <input type="radio" name="gender">Female
+ <input type="radio" name="gender">Others
+
+ <br><br>
+
+ <label>Qualification :</label>
+ <select>
+    <option value="">select</option>
+<option value="">B.TECH - csc</option>
+<option value="">B.TECH - Mech</option>
+<option value="">B.TECH - ECE</option>
+<option value="">B.TECH - CIVIL</option>
+<option value="">B.TECH - EEE</option>
+ </select> <br><br>
+
+ <label for="">DOB:</label>
+ <input type="date" min="1800-01-01" max="2004-01-01"> <br><br>
+ <label for="">Resume :</label>
+ <input type="file"> <br><br>
+
+<input type="color"><br><br>
+<label for="">Rating :</label>
+<input type="range"> <br><br>
+
+<label for="">Seach :</label>
+<input type="search">
+<br><br>
+<label for="">Reset :</label>
+<input type="reset"><br><br>
+    <button >SignUp</button>
+ 
+</form>    
+</body>
+</html>
+-----------------------*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--------------------------
+
+
+class will be starts sharp 6:26 pm
+VOICE AUDIBLE OR NOT
+
+class 8 :
+-------------
+
+Form Elements in HTML 
+-------------------------------------
+1.Name Box
+2.Email Box
+3.Number Box
+4.Phone Number Box
+5.check Box
+6.Radio Button
+7.submit Button
+8.Reset Button
+9.Upload Button
+10.Search Button
+11.select box/Drop DownMenu
+
+4.Phone Number Box:
+----------------------
+6,7,8,9
+ 8309808500
+"^[6-9]{1}[0-9]{9}$"
+^ indicates starting
+$ indicates end
+
+-----------*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-----------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form</title>
+</head>
+<body>
+<center><h3>SaiKumar Online Classes</h3></center>
+<form action="">
+    <label for="">Name :</label>
+    <input type="text" placeholder="Enter your name"> <br><br>
+
+    <label for="">Phone :</label>
+    <input type="tel"  placeholder="Enter Mobile Number" pattern="^[6-9]{1}[0-9]{9}$"><br><br>
+
+    <label for="">Email :</label>
+    <input type="email" placeholder="enter your email " pattern="[A-Za-z0-9]+@[a-zA-Z]+.[A-Za-z]{3}$" required> <br><br>
+
+    <label>Age :</label>
+    <input type="number" id="age" name="age"> <br><br>
+
+   
+<label >Technical Skills :</label>
+
+<input type="checkbox">Java
+<input type="checkbox">React JS
+<input type="checkbox">Spring Boot
+<input type="checkbox">Sql
+
+ <br><br>
+
+ <label >Gender</label>
+ <input type="radio" name="gender">Male
+ <input type="radio" name="gender">Female
+ <input type="radio" name="gender">Others
+
+ <br><br>
+
+ <label>Qualification :</label>
+ <select>
+    <option value="">select</option>
+<option value="">B.TECH - csc</option>
+<option value="">B.TECH - Mech</option>
+<option value="">B.TECH - ECE</option>
+<option value="">B.TECH - CIVIL</option>
+<option value="">B.TECH - EEE</option>
+ </select> <br><br>
+
+ <label for="">DOB:</label>
+ <input type="date" min="1800-01-01" max="2004-01-01"> <br><br>
+ <label for="">Resume :</label>
+ <input type="file"> <br><br>
+
+<input type="color"><br><br>
+<label for="">Rating :</label>
+<input type="range"> <br><br>
+
+<label for="">Seach :</label>
+<input type="search">
+<br><br>
+<label for="">Reset :</label>
+<input type="reset"><br><br>
+    <button >SignUp</button>
+ 
+</form>    
+</body>
+</html>
+-----------------------*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--------------------------
