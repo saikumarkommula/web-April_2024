@@ -1,0 +1,80 @@
+class 9 :
+-------------
+
+1.target attribute : is used to specify where to open the linked html document
+2.i-frame tag : is used to embeded the external webpage in the current html page.
+3.table creation :
+---------------------------
+target attribute :is used to specify where to open the linked html document
+
+_self attribute ; it opens the linked document in the same tab or window
+
+_blank attribute : it oepns the linked document in the new tab or window
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Target Attribute :</title>
+</head>
+<body>
+    
+    <a href="https://pune.gov.in/" target="_self">Pune1</a>
+    <a href="https://www.britannica.com/place/Pune">Pune2</a>
+
+  <a href="https://in.pinterest.com/pin/417005246723295162/" target="_blank">Bng</a>
+  <a href="https://www.britannica.com/place/Vijayawada" target="_blanck">Vijayawada</a>
+
+</body>
+</html>
+------------------------------------------*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-----------------------
+I frame tag :-i-frame tag : is used to embeded the external webpage in the current html page.
+-------------------
+<iframe></iframe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>I frame tag :</title>
+</head>
+<body>
+
+    <iframe src="https://mp.gov.in/" frameborder="5s">new Browser</iframe>
+    <iframe src="https://www.kanha-national-park.com/"  height="100px" width="100px"></iframe>
+    
+</body>
+</html>
+-------*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-------------------
+Table tag :
+<table></table>
+table row <tr></tr>
+table head <th></th>
+table data <td></td>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 1 </title>
+</head>
+<body>
+    <table border="">
+        <tr>
+            <th>eid</th>
+            <th>ename</th>
+            <th>esalary</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sai</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>charan</td>
+            <td>200</td>
+    </table>
+</body>
+</html>
+
