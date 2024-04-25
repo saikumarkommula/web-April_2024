@@ -1,0 +1,44 @@
+we will continue 6:30 pm
+
+1.tables : rowspan,clospan
+--------------------------------------------------------------------------
+
+HTML +CSS :
+--------------------
+HYPER TEXT
+ 
+MARK UP
+
+
+CSS :
+---------
+ ** Cascading Style sheet,it is used to style & layout the web pages using the css properties **
+
+CSS Basic  Properties :
+------------------------
+font -style
+font -size
+color
+text-align
+background -color
+
+Types of css :-
+--*------------------
+
+1.inline css
+2.internal css
+3.external css
+
+.html
+.java
+.py
+.css
+.js
+
+------------------------
+style
+ >> atribute
+>> tag
+>> external link
+
+ 

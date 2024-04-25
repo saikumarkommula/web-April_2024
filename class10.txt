@@ -1,0 +1,43 @@
+class 10
+--------------
+table in html ;
+
+colspan : to merge columns
+rowspan ; to merge rows
+
+-----------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 2:</title>
+</head>
+<body>
+    
+    <table border="">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>k</td>
+           <td>sai </td>
+           <td>45</td>
+         <td rowspan="3">Pune</td>
+        </tr>
+        <tr>
+            <td>h</td>
+            <td>karthik</td>
+            <td>56</td>
+        </tr>
+        <tr>
+            <td>P</td>
+            <td>vinay</td>
+            <td>67</td>
+        </tr>
+    </table>
+</body>
+</html>
+-------------------------------------------------------------------
