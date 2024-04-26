@@ -1,0 +1,99 @@
+class 12 :
+---------------------
+Types of CSS : 
+
+style
+.css
+
+1.Inline css    ~ atribute  => style=" "
+2.internal css ~ tag   => <style></style>
+3.external css ~ link 
+
+1.Inline css    ~ atribute  => style=" "
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline css-</title>
+</head>
+<body>
+
+    <h3>Inline css :Inline css is used to
+         apply unique styling to single html element at a time</h3>
+         
+         <h3 style="color: chocolate;">for styling single html element we can use style as an attribute</h3>
+        
+    <h2 style="color: darkred;">Bhahubali</h2>
+    <h1 style="color: green;">Virat Kohli</h1>
+</body>
+</html>
+-------------------------------------
+
+2.internal css ~ tag   => <style></style>
+-------------------------------------------------------------
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>Internal css </title>
+    <style>
+       h3,p{color: blueviolet;}
+       h2,pre{color: chartreuse;}
+    </style>
+</head>
+<body>
+    we can style multiple html elements at a time
+    <p>sai kumar online classes</p>
+    <h2>Purna tech solutions</h2>
+    <h3>Vijayawada</h3>
+    <pre>Bengaluru</pre>
+    <h3>Guntur</h3>
+    
+</body>
+</html>
+----------------------------------_*_*_*_*_*_*_*_*_*_*_*_*_*-----------------
+
+inline css :
+----------------
+we can style single element at a time
+style as attribute
+
+internal css :
+---------------
+we can style multiple html elements at a time
+style as tag
+
+external css :
+-------------------
+we can style multiple html documnets at a time by using external css
+in external css we can use style as link
+-------------------------------------------
+<!DOCTYPE html>
+<html >
+<head>
+    <title>External css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <p>sai kumar is a trainer</p>
+    <h1>Thank you for watching</h1>
+    <h2>Learning is important</h2>
+     
+</body>
+</html>
+---------------------------------------------------
+p{
+    color: red;
+
+}
+h1{
+    color: green;
+}
+
+h2{
+    color: yellow;
+}
+--------------------------------------------------------------------
