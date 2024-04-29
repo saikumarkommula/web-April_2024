@@ -1,0 +1,138 @@
+ class 13 ;
+----------------
+
+wait for few minutes :
+----------------------------------
+check my voice and video
+
+give me rerply in whatsapp
+i will send another link 
+----------------------------------
+
+ selectors in css :
+------------------------
+selectors are used to select html documents that you wants to style
+types of selectors ;
+----------------------
+1.element selector
+2.Group selector
+3.Id selector
+4.class selector
+5.Universal selector
+
+1.element selector:
+-----------------=---------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        p{color: blueviolet}
+        h1{color: chartreuse;}
+    </style>
+</head>
+<body>
+
+    <h1> when ever we are selecting html element by
+         using element name to give the styling to it are called element selector </h1>
+
+    <p>sai kumar online classes .. keep learning</p>
+    <h1>knowledge</h1>
+    
+</body>
+</html>
+---------------------------------------
+2.Group selector :
+when ever we are selecting html element by
+         using element names in group to give the styling to it are called element selector
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        p,h1,h3{color: red;}
+    </style>
+</head>
+<body>
+    when ever we are selecting html element by
+         using element names in group to give the styling to it are called element selector
+    <p>sai</p>
+    <h1>Kumar</h1>
+    <h3>online classes</h3>
+</body>
+</html>
+
+--------------------------------------------------
+Id selector :
+--------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+
+    <style>
+    #a1{color:red;}
+    #a2{color: green;}
+    #a3{color: fuchsia;}
+    </style>
+</head>
+<body>
+    <p id="a1">sai kumar </p>
+    <h1 id="a2">learn web technologies</h1>
+    <h3 id="a3">Learn React js</h3>
+</body>
+</html>
+--------------------------
+class selector :
+------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+<style>
+    .a{color: aqua;}
+    .b{color: brown;}
+    .c{color: chartreuse;}
+</style>
+
+</head>
+<body>
+    
+    <p class="a">sai kumar </p>
+    <h1 class="b">learn web technologies</h1>
+    <h3 class="c">Learn React js</h3>
+</body>
+</html>
+-----------------------------------
+universal selector :
+-----------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+
+   <style>
+
+    *{
+        color:green;
+    }
+   </style>
+</head>
+<body>
+    
+    <p>sai</p>
+    <h1>kumar</h1>
+    <pre>learn react js</pre>
+</body>
+</html>
+
+------------------------------------
+
+
