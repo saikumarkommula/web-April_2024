@@ -1,0 +1,81 @@
+wait for others :
+
+i will start 7:05 pm
+check my voice and video
+------------------------------
+
+Span tag :
+---------------------
+ Google
+<span></span>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <b>
+ <span style="color: blue;">G</span>
+<span style="color :red">o</span>
+ <span style=" color:yellow">o</span>
+ <span style="color: blue;">g</span>
+ <span style="color:green">l</span>
+ <span style="color: red;">e</span>
+  </b>
+</center>
+</body>
+</html>
+-----------------------------=---------------
+
+Borders :
+ border property : border-width border-type border-color
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+</head>
+<body>
+    <h3 style="border:5px solid yellow;">Practice makes a man perfect</h3>
+    <p style="border: 15px dashed green;">learning </p>
+
+    <h2 style="border: 20px solid pink;" > Knowledge is power</h2>
+    
+</body>
+</html>
+
+----------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p style="border-width: 20px;
+    border-color: blue;
+    border-style: solid;
+    height: 150px;
+    width: 150px;">welcome to india</p>
+</body>
+</html>
+-----------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p style="border: 5px solid red ">sai</p>
+</body>
+</html>
+--------------------------------------------------------
