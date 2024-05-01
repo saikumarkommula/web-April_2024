@@ -1,0 +1,153 @@
+class 15 :
+------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+
+    <style>
+        p{
+            border-top: 10px solid yellow;
+            border-right: 10px dotted green;
+        border-bottom: 10px dashed red;
+      border-left: 10px groove brown;}
+
+
+      h2{border: 5px solid green;}
+    </style>
+
+</head>
+<body>
+    
+    <p>Purna Tech Solutions</p>
+    <h2>sai kumar</h2>
+</body>
+</html>
+-----------------------------------------
+example 2:
+------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        p{border-top: 2px dotted green;
+        border-bottom: 4px dashed yellow;
+    border-right: 6px solid red;
+border-left: 8px groove pink;}
+    </style>
+</head>
+<body>
+    
+    <p>Border properties</p>
+</body>
+</html>
+----------------------------------------------------
+example 3:
+---------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+      #first{
+        height: 150px;
+        width: 150px;
+        border-top: 10px solid red;
+        border-right: 10px solid green;
+        border-left: 10px solid blue;
+        border-bottom: 10px solid pink;
+        border-radius: 5px 25px  40px  60px;
+      }
+    </style>
+</head>
+<body>
+   
+    <p id="first">learning border properties</p>
+</body>
+</html>
+--------------------------------------
+example 4:
+------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Document</title>
+    <style>
+        #one{
+            border: 10px solid red;
+            height: 150px;
+            width: 150px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+    
+    <p id="one">sai kumar</p>
+</body>
+</html>
+--------------------------
+example 5 ;
+-----------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Document</title>
+    <style>
+        p{color: green;
+        font-family: cursive;
+    text-align:center;}
+
+        #one{
+            border: 10px solid red;
+            height: 150px;
+            width: 150px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 25px;
+        }
+        #two{
+            border: 15px dotted yellow;
+            height: 150px;
+            width: 150px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 25px;
+
+        }
+       #three {
+        border: 20px dashed blueviolet;
+            height: 150px;
+            width: 150px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 25px;
+
+        }
+    </style>
+</head>
+<body>
+    
+   <p id="one">sai kumar</p>
+   <p id="two">online classes</p>
+   <p id="three">learning</p>
+</body>
+</html>
+----------------------------
+class 16 ;
+
+div tag
+Animations using css
+styling of links
