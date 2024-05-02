@@ -197,7 +197,14 @@ example ;2
 </body>
 </html>
 
-
+---------------------------------------
+------------------------------------------------------------------
+class 17 :
+-------------
+Transformation
+Margin & Padding
+Scemantic & non-scemantic elements
+Navgational Bar
 
 
 
