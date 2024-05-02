@@ -1,0 +1,102 @@
+case 1:
+-----------------
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>Document</title>
+
+</head>
+<body>
+    <center>
+    <form action="">
+        <label for="">UserName</label>
+        <input type="text" id="username" name="username">
+       <br><br>
+        <label for="">email</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="">Password</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="">Gender : </label>
+   <label for="">Male</label>
+        <input type="radio" id="gender" name="gender" value="M">
+        <label for="">Female</label>
+        <input type="radio" id="gender" name="gender" value="F">
+       <label for="">Others</label>
+       <input type="radio" id="gender" name="gender" value="O"><br><br>
+      <button onclick="acceptData()">Submit</button>
+
+<script src="validationjs.js"></script>
+        
+    </form></center>
+</body>
+</html>
+--------------
+
+function acceptData(){
+    alert("conection done")
+}
+
+----------------------
+
+
+function acceptData(){
+    let username = document.getElementById("username").value
+    validateUsername(username)
+
+
+}
+function validateUsername(username){
+
+    if(username === ''){
+        alert("username cannot be empty")
+    }
+    else if(username.length<5 || username.length>15)
+    {
+        alert("username should contains min 5 and max 15 characters")
+    }
+    else{
+        alert("valid username")
+    }
+}
+-----------
+Regular expressions :
+---------------------
+username : /^[a-zA-Z0-9]+$/
+---------------------------------
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>Document</title>
+
+</head>
+<body>
+    <center>
+    <form action="">
+        <label for="">UserName</label>
+        <input type="text" id="username" name="username">
+       <br><br>
+        <label for="">email</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="">Password</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="">Gender : </label>
+   <label for="">Male</label>
+        <input type="radio" id="gender" name="gender" value="M">
+        <label for="">Female</label>
+        <input type="radio" id="gender" name="gender" value="F">
+       <label for="">Others</label>
+       <input type="radio" id="gender" name="gender" value="O"><br><br>
+      <button onclick="acceptData()">Submit</button>
+
+<script src="validationjs.js"></script>
+        
+    </form></center>
+</body>
+</html>
+-----------------------------------------------
