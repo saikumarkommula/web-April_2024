@@ -1,0 +1,218 @@
+class 17 :
+-------------
+check voice and video
+
+-------------------------------
+
+Margin and Padding :
+---------------------------------
+
+padding :
+--------------
+Giving the space between html control(text) and border(to give space around the text)
+negative value for padding is not allowed
+
+Margin :
+---------------
+To give the space outside the border of the text
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Margin & Padding</title>
+    <style>
+        p{
+            border: 5px solid red;
+            height: 200px;
+            width: 200px;
+            color: crimson;
+            font-family: cursive;
+            margin-left: 60px;
+            margin-top: 60px;
+            padding-top: 60px;
+            padding-left: 60px;
+            
+
+        }
+        div{
+
+            border: 5px solid blue;
+         height: 400px;
+         width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Arjun Reddy</p>
+    </div>
+</body>
+</html>
+
+-----------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Margin & Padding</title>
+    <style>
+        p{
+            border: 5px solid red;
+            height: 200px;
+            width: 200px;
+            color: crimson;
+            font-family: cursive;
+            /* margin-left: 60px;
+            margin-top: 60px; */
+            margin: 60px 60px 60px 60px;
+            /* padding-top: 60px;
+            padding-left: 60px; */
+           padding: 60px 60px 60px 60px;
+
+        }
+        div{
+
+            border: 5px solid blue;
+         height: 400px;
+         width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Arjun Reddy</p>
+    </div>
+</body>
+</html>
+------------------------------------------------------
+Nav Bar :(Navigational BAR)
+------------------------------------------------ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Nav Bar</title>
+    <style>
+        a{
+            background-color: black;
+            display: block;
+            width: 150px;
+            color: aliceblue;
+            padding: 4px;
+            text-align: center;
+            border: 2px groove;
+            margin:5px;
+            text-decoration: none;
+            float: left;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+
+</head>
+<body>
+<ul>
+  <li> <a href="xyz">HOME</a></li>
+  <li> <a href="xyz">VIDEO</a></li>
+  <li> <a href="xyz">AUDIO</a></li>
+  <li> <a href="xyz">ENROLL-NOW</a></li>
+  <li> <a href="xyz">CONTACT</a></li>
+</ul>
+</body>
+</html>
+----------------------------------------------
+
+Scemantic and Non-Scemantic Elements :
+-----------------------------------------------------------
+
+Scemantic elements :
+------------------
+
+Scemantic elements are such elemets which gives information about the text or content to the browser and programmer
+ex:
+table,header,nav,section,article,footer,aside
+
+ Non-Scemantic Elements :
+-------------------------------
+which will not tell anything about content
+ex ;
+<span>
+
+------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        header{
+            border: 2px solid red;
+            padding-top: 15px;
+            height: 30px;
+            width: 1000px;
+            text-align: center;
+        }
+        nav{
+            border: 2px solid red;
+            padding-top: 15px;
+            height: 30px;
+            width: 1000px;
+            text-align: center;
+            margin-top: 1px;
+        }
+        section{
+            border: 2px solid red;
+            padding-top: 75px;
+            height: 100px;
+            width: 500px;
+            text-align: center;
+            margin-top: 1px;
+        }
+        article{
+            border: 2px solid red;
+            padding-top: 15px;
+            height: 100px;
+            width: 500px;
+            text-align: center;
+            margin-top: 1px;
+        }
+        aside{
+            border: 2px solid red;
+            padding-top: 114px;
+            height: 180px;
+            width: 497px;
+            text-align: center;
+            margin-top: -297px;
+            margin-left: 504px;
+        }
+        footer{
+            border: 2px solid red;
+            padding-top: 15px;
+            height: 35px;
+            width: 1000px;
+            text-align: center;
+            margin-top: 1px;
+           
+        }
+    </style>
+</head>
+<body>
+    <header>header</header>
+    <nav>navigational bar</nav>
+    <section>section</section>
+    <article>article</article>
+    <aside>aside</aside>
+    <footer>footer</footer>
+</body>
+</html>
+----------------------------------------
+class 17 ; html and css completed
+class  18 :
+--------------
+1. why java script
+2.basic coding with java script
