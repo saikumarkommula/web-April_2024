@@ -1,0 +1,30 @@
+class 18 :
+---------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Js</title>
+    <script src="two2.js"></script>
+    <link rel="stylesheet" href="two2.css">
+</head>
+<body>
+    <p>hello sai </p>
+</body>
+</html>
+---------------------
+document.write("hello welcome to javascript")
+-------------------------------------------------
+body{color:red;}
+----------------------------
+
+Types of JavaScript :
+----------------------------
+1. Internal javascript : script tags
+   <script></script>
+2.external javascript ; we can create external js file
+  validation.js
+---------------------------------------------
+Variables and Datatypes in Java Script :
+---------------------------------------------------------
+
