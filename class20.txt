@@ -1,0 +1,80 @@
+class 20 :
+------------
+js,shell script,pythonscript-programming languages
+js : scripting language
+java :programming language 
+
+variables
+datatypes
+----------------------
+keywords : var,let,const
+-------------------------------
+var keyword :
+------
+we access outside the block
+we can reinitilize the variables
+
+let,const
+-------------
+we cannot access outside the block
+we cannot reinitilize the variables
+let and const keywords has block scope ,
+------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <script src="datatypes.js">
+
+    </script>
+    
+</head>
+<body>
+    
+ 
+</body>
+</html>
+----------------------------------
+{
+    var a=30
+    document.write(a)
+    var a=40
+    document.write(a)
+}
+document.write(a)
+------------------------------
+const keyword :
+--------------------------
+{
+    const c=45
+    document.write(c)
+
+    const c=50
+}
+document.write(c)
+------------------------------
+
+
+{
+    var d=10
+    document.write(d)
+    document.write(typeof(d))
+    console.log(typeof(d))
+
+    var s="sai"
+    document.write(s)
+    document.write(typeof(s))
+    console.log(typeof(s))
+}
+----------------------------------------
+let keyword :
+--------------------
+{
+    let l=56
+    document.write(l)
+
+    let l=65
+}
+document.write(l)
+--------------------------------------------------
