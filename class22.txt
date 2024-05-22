@@ -1,0 +1,46 @@
+// 1.Arithmatic operator : +,-,*,/
+var a=50,b=20
+console.log(a+b)
+console.log(a-b)
+console.log(a*b)
+console.log(a/b)
+//2.Relational Operator : <,>,<=,>=,==
+var c=100,d=500
+console.log(c>d)
+console.log(c<d)
+console.log(c<=d)
+console.log(c>=d)
+console.log(c==d)
+//3.Logical Operator : && , ||
+var e=400,f=700
+console.log(e>f && f!=e)
+console.log(e<f && f!=e)
+console.log(e>f || f!=e)
+console.log(e<f || f!=e)
+console.log(e>f || f==e)
+//4.Ternary Operator :  (condition)?expression1(true):expression2(false)
+
+var x=10,y=20
+
+var z=(x>y?x+20:x-5)
+console.log(z)
+document.write(z)
+
+var k=(x<y?x+20:x-5)
+console.log(k)
+document.write(k)
+
+var j=50,i=51
+ var z=(j<i?'sai':'false sai')
+ console.log(z)
+ document.write(z)
+
+ var j=40,i=51
+ var n=(j>i?'sai':'false sai')
+ console.log(n)
+ document.write(n)
+
+
+// 5.String Operator : +
+let p='sai',g='kumar'
+console.log(p+g)
