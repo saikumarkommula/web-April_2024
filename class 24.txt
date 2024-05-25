@@ -1,0 +1,76 @@
+ Functions in JavaScript :
+-------------------------------------------
+ 1.Normal Function
+2.Arrow Function
+
+Normal Function
+Syntax :
+-----------
+  function function-name()
+  {
+// function body
+  }
+ function-name()
+
+ex ;
+ function fun()
+ {
+// function body
+  }
+ fun()
+------------------------------------
+example 2 :
+----------------
+function fun()
+{
+    a=10
+    b=20
+    c=a+b
+    console.log(c)
+}
+fun()
+-------------------------
+example 3 :
+---------------------
+function fun()
+{
+    a=10
+    b=20
+   
+    console.log(a+b)
+    console.log(a-b)
+    console.log(a*b)
+    console.log(a/b)
+}
+fun()
+------------------------------
+Arrow Function ;
+-------------------------
+sysntax ;
+-------------
+  function_name =() =>
+ {
+   //body of function
+ }
+ function_name()
+-------------------------------------
+ example :
+-------
+
+  var fun2=()=>
+ {
+  console.log(10)
+ }
+ fun2()
+
+------------------------------
+var function2=() =>
+    {
+        a=200
+        b=300
+        console.log(a+b)
+    }
+    function2()
+----------------------------------------
+
+
