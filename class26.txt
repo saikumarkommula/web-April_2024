@@ -1,0 +1,98 @@
+username validation :
+-----------------------------------
+
+function acceptData()
+{
+    let regex=/^[A-Za-z0-9\-]+$/
+   let username= document.getElementById("username").value
+   validateUsername(username)
+}
+function validateUsername(username)
+{
+    if(username ==='')
+        {
+            alert("username cannot be empty")
+        }
+    else if(username.length<5 || username.length>15)
+        {
+            alert("username should contain min 5 characters and max 15 charecters")
+        }
+     else if(regex.test(username) == false)
+        {
+            alert("username should contains only digits and alphabets")
+        }
+    else
+    {
+        alert("valid user")
+    }
+}
+
+----------------------------------------------------
+form in html :
+--------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form</title>
+    <style>
+       #body{border: 5px solid rgb(101, 34, 168);}
+    </style>
+</head>
+
+    <body id="body">
+<center><h3>SaiKumar Online Classes</h3>
+    <script src="usernamevalidation.js"></script>
+<form >
+  
+    <label for="">Name :</label>
+    <input type="text" id="username" class="username" placeholder="enter your name"><br><br>
+
+    <label for="">Phone :</label>
+    <input type="tel"  placeholder="Enter Mobile Number" ><br><br>
+
+    <label for="">Email :</label>
+    <input type="email" id="email" name="email" placeholder="enter your email " > <br><br>
+
+    <label>Age :</label>
+    <input type="number" id="age" name="age"> <br><br>
+
+   
+<label >Technical Skills :</label>
+
+<input type="checkbox">Java
+<input type="checkbox">React JS
+<input type="checkbox">Spring Boot
+<input type="checkbox">Sql
+
+ <br><br>
+
+ <label >Gender</label>
+ <input type="radio" id="gender" name="gender">Male
+ <input type="radio" id="gender" name="gender">Female
+ <input type="radio" id="gender" name="gender">Others
+
+ <br><br>
+
+ <label>Qualification :</label>
+ <select>
+    <option value="">select</option>
+<option value="">B.TECH - csc</option>
+<option value="">B.TECH - Mech</option>
+<option value="">B.TECH - ECE</option>
+<option value="">B.TECH - CIVIL</option>
+<option value="">B.TECH - EEE</option>
+ </select> <br><br>
+
+ <label for="">DOB:</label>
+ <input type="date" min="1800-01-01" max="2024-04-22"``
+ > <br><br>
+ <label for="">Resume :</label>
+ <input type="file"> <br><br>
+
+
+    <button onclick="acceptData()">SignUp</button>
+ 
+</form>   </center> 
+</body>
+</html>
