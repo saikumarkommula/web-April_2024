@@ -1,0 +1,137 @@
+A-Za-z0-9+@+A-zA-Z+.+a-zA-Z
+saikumar021@gmail.com
+password :
+
+/^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+
+email ;
+
+/^[a-zA-Z0-9. _%+-]+@[a-zA-Z0-9. -]+\\. [a-zA-Z]{2,3}$/
+
+DOM :
+-----------
+--------------------------------------------------------------------
+function acceptData()
+{
+   
+    let username= document.getElementById("username").value
+    validateUsername(username)
+    
+   let email=document.getElementById("email").value
+   validateEmail(email)
+
+   let password=document.getElementById("password").value
+   validatePassword(password)
+
+
+}
+function validateUsername(username)
+{
+    if(username ==='')
+        {
+            alert("username cannot be empty")
+        }
+    else if(username.length<5 || username.length>15)
+        {
+            alert("username should contain min 5 characters and max 15 charecters")
+        }
+     else if(regex.test(username) == false)
+        {
+            alert("username should contains only digits and alphabets")
+        }
+    else
+    {
+        alert("valid user")
+    }
+}
+function validateEmail(email)
+{
+    if(email ==='')
+        {
+            alert("email  should not be empty")
+        }
+
+    
+        else{
+            alert( " you entered valid email")
+        }
+    
+}
+function validatePassword(password)
+{
+    if(password ==='')
+        {
+            alert("passwrd should not be empty")
+        }
+else if(pass.test(password)=== false)
+    {
+  alert("password should be alpha numaric values with symbols")
+    }
+
+    else if(password.length>8 || username.length<18 )
+        {
+            alert("password should be more 8characters and less than 18 characters")
+        }
+    
+        else{
+            alert( " you entered valid password")
+        }
+    
+}
+
+-----------------------------------------------------------
+function acceptData()
+{
+   let pass="/^[a-zA-Z0-9!@#$%^&*]{6,16}$/;"
+   let password=document.getElementById("password").value
+   validatePassword(password)
+
+}
+function validatePassword(password)
+{
+    if(password ==='')
+        {
+            alert("passwrd should not be empty")
+        }
+else if(pass.test(password)=== false)
+    {
+  alert("password should be alpha numaric values with symbols")
+    }
+
+    else if(password.length>8 || username.length<18 )
+        {
+            alert("password should be more 8characters and less than 18 characters")
+        }
+    
+        else{
+            alert( " you entered valid password")
+        }
+    
+}
+---------------------------------------------------------------
+function acceptData()
+{
+    let regex=/^[A-Za-z0-9\-]+$/
+   let username= document.getElementById("username").value
+   validateUsername(username)
+}
+function validateUsername(username)
+{
+    if(username ==='')
+        {
+            alert("username cannot be empty")
+        }
+    else if(username.length<5 || username.length>15)
+        {
+            alert("username should contain min 5 characters and max 15 charecters")
+        }
+     else if(regex.test(username) == false)
+        {
+            alert("username should contains only digits and alphabets")
+        }
+    else
+    {
+        alert("valid user")
+    }
+}
+------------------------------------------------
