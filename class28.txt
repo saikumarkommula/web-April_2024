@@ -1,0 +1,40 @@
+1.Browser object model
+2.Document Object model
+-----------------------------------------------
+
+1.Browser object model :
+----------------------------------------
+** browser object model properties ; screen height,screen width and
+ win_open(),
+win_close()
+
+---------------------
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>BOM In JavaScript </title>
+</head>
+<body>
+    <h3 id="one" style="color: blue"></h3>
+    <h3 id="two" style="color: blue;"></h3>
+    <button onclick="win_open()">Open</button>
+    <button onclick="win_close()">Close</button>
+    <script>
+        document.getElementById("one").innerHTML="height of browser "+screen.height
+        document.getElementById("two").innerHTML="width of browser "+screen.width
+
+        var win_open=function()
+        {
+            window.open("https://en.wikipedia.org/wiki/M._A._Chidambaram_Stadium")
+        }
+        var win_close=function()
+        {
+            window.close()
+        }
+    </script>
+</body>
+</html>
+--------------------------------------
+Document Object Model In Java Script :
+---------------------------------------------------
